@@ -1,0 +1,7 @@
+title: Aurora Systems Lab
+description: Public research output of the Aurora Systems Lab
+baseurl: ""
+markdown: kramdown
+collections:
+  publications:
+    output: true
