@@ -8,9 +8,12 @@ Every entry in `_publications/` uses YAML front matter with the following fields
 - `status` (string, required) - `Published`, `Accepted` or `Under Review`
 - `course` (string, required) - course code of the seminar that owns the paper
 - `authors` (list of strings, required)
-- `codeurl` (string, optional) - canonical URL of the released code repository.
-  Only record this when the paper's code has actually been released and is usable.
-  Do not record placeholder, pre-release or mirror repositories.
+- `codeurl` (string, optional) - canonical URL of the released code. Only record
+  this when the paper's code has actually been released and is usable. Do not
+  record placeholder, pre-release or mirror repositories. Code that lives in a
+  dedicated repository is linked as `https://github.com/<account>/<repo>`; code
+  that lives in the shared lab code archive is linked as
+  `https://github.com/<account>/<archive-repo>/tree/main/<subdir>`.
 - `release_lead` (string, optional) - the person who owns the code release.
 
 ## Release-lead policy
